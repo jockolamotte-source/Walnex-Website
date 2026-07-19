@@ -1,21 +1,25 @@
-# Walnex Creative Website v2.8.4
+# Walnex Creative Website v2.9
 
 GitHub-ready static website.
 
-## v2.8.4 Update
+## v2.9 Update
 
-- Consolidated page purposes:
-  - Home = brand overview / entry point
-  - Services = detailed service explanations only
-  - Pricing = package and investment information only
+- Reworked the About Jake section so it is more open, readable, and less squished.
+- Rebuilt the Pricing page so it reflects the four service areas:
+  - Brand Identity
+  - Web Design / Service Websites
+  - Digital Strategy
+  - Content Creation / Creative Support
+- Fixed the Home page CTA panels so “Explore services” and “Review pricing” no longer bleed into supporting text.
+- Enlarged the header logo visually without increasing the header height.
+- Preserved the approved hero image position: `50% 0%`.
+- Kept page purpose separation:
+  - Home = overview / entry point
+  - Services = detailed service descriptions
+  - Pricing = service-aligned investment options
   - About = mission, purpose, and Jake bio
   - Contact = inquiry flow
-- Removed duplicate pricing from the home and services pages.
-- Fixed Pricing navigation highlight so Pricing is active on `pricing.html`.
-- Removed public fake client/work references from the homepage.
-- Added mission, purpose, and founder bio language to the About page.
-- Preserved the user-approved hero image position: `50% 0%`.
 
 ## GitHub Pages
 
-Upload the full contents of this folder to your repository root.
+Upload the contents of this folder to the repository root.
