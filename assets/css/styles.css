@@ -1110,7 +1110,7 @@ h1{
     radial-gradient(circle at 58% 20%, rgba(233,225,214,.12), transparent 30%),
     linear-gradient(90deg, rgba(0,0,0,.74) 0%, rgba(0,0,0,.52) 36%, rgba(0,0,0,.18) 64%, rgba(0,0,0,.56) 100%),
     linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.18) 40%, rgba(0,0,0,.74) 100%),
-    url("../images/hero-approved-mountain-forest-v2-6.jpg") center center / cover no-repeat !important;
+    url("../images/hero-approved-mountain-forest-v2-6.jpg") center top / cover no-repeat !important;
   transform:none;
 }
 
