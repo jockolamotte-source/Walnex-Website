@@ -1,23 +1,43 @@
-# Walnex Creative Website — V1.1.0
+# Walnex Creative Website v2.0
 
-A multi-page static website for Walnex Creative.
+GitHub-ready static website based on the approved dark mountain / forest mockup.
 
 ## Pages
-- `index.html` — Home
-- `services.html` — Branding, web design, launch assistance, support
-- `pricing.html` — Packages and starting prices
-- `work.html` — Portfolio overview
-- `beauty-lodge.html` — Beauty Lodge case study
-- `about.html` — Studio story and approach
-- `contact.html` — Project inquiry
 
-## Editing
-Every page is a complete standalone HTML file. Shared styles are in `assets/css/styles.css`, and shared interaction behavior is in `assets/js/main.js`.
+- `index.html`
+- `services.html`
+- `work.html`
+- `about.html`
+- `contact.html`
+- `pricing.html` *(included for v1 continuity, not shown in the main nav)*
 
-The header and footer are intentionally repeated in each HTML file to keep the project simple and compatible with direct GitHub Pages hosting. Update those blocks on every page when changing navigation or global contact information.
+## Design Direction
 
-## Contact form
-The V1.1.0 contact form uses `mailto:hello@walnexcreative.co`. Replace it or connect Formspree, Netlify Forms, or another form provider before launch.
+- Dark luxury aesthetic
+- Mountain / evergreen hero scene
+- Copper and walnut accents
+- Cormorant Garamond headings
+- Jost body typography
+- Approved Walnex logo assets included as raster crops
+- Responsive layout for desktop, tablet, and mobile
 
-## Disclaimer
-Walnex business setup assistance must remain positioned as administrative and technical assistance, not legal, tax, accounting, financial, or registered-agent services.
+## GitHub Pages
+
+Upload the full folder contents to your repository root and enable GitHub Pages.
+
+Recommended repo structure:
+
+```text
+/
+├── index.html
+├── services.html
+├── work.html
+├── about.html
+├── contact.html
+├── pricing.html
+└── assets/
+```
+
+## Notes
+
+The logo files included in this build are raster assets from the approved visual direction. They are suitable for this website and digital mockups. True production SVG/AI/EPS logos would require a manual vector rebuild.
