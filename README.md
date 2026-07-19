@@ -1,4 +1,4 @@
-# Walnex Creative Website v2.8.1
+# Walnex Creative Website v2.8.3
 
 GitHub-ready static website based on the approved dark forest / fog reference direction.
 
@@ -122,3 +122,18 @@ The logo files included in this build are raster assets from the approved visual
 
 - Fixed the Walnex circular logo assets so the square black background is removed.
 - Updated `walnex-mark-round.png` and `walnex-stamp.png` to use transparent outer backgrounds.
+
+
+## v2.8.2 Update
+
+- Replaced the homepage hero background with a clean mountain/forest scene.
+- Removed all baked-in text, logo, and header artifacts from the hero image.
+- Kept the same moody cinematic mountain and evergreen look the user wanted.
+
+
+## v2.8.3 GitHub Upload-Safe Update
+
+- Kept the clean mountain/forest hero.
+- Compressed the hero image for GitHub Pages/browser upload.
+- Removed unused legacy hero images and reference boards from the live site package.
+- No file in this package should exceed GitHub's browser upload limit.
