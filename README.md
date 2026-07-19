@@ -1,4 +1,4 @@
-# Walnex Creative Website v2.6
+# Walnex Creative Website v2.7
 
 GitHub-ready static website based on the approved dark forest / fog reference direction.
 
@@ -100,3 +100,11 @@ The logo files included in this build are raster assets from the approved visual
 - Removed old fake client references and fake portfolio cards from the homepage.
 - Kept service-focused positioning for growing businesses.
 - Kept Playfair Display headings and Montserrat body typography.
+
+
+## v2.7 Update
+
+- Fixed the homepage hero text issue.
+- Re-cropped the approved mountain/forest background so the baked-in mockup text is removed.
+- Reduced and tightened the hero headline slightly for cleaner placement.
+- Refined hero copy width and spacing for better balance.
