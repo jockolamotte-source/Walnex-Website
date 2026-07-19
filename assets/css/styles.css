@@ -922,3 +922,310 @@ h1{
     gap:0;
   }
 }
+
+
+/* ================================
+   v2.5 corrections
+   - Different hero image
+   - No cut-off hero
+   - Single-line tagline
+   - Smaller/more palatable scale
+   - No fake client portfolio
+   ================================ */
+
+.hero{
+  min-height:760px;
+  height:auto;
+  padding-top:7.2rem;
+  padding-bottom:5.25rem;
+  display:flex;
+  align-items:center;
+}
+
+.hero-bg{
+  background:
+    radial-gradient(circle at 58% 20%, rgba(255,255,255,.15), transparent 36%),
+    linear-gradient(90deg, rgba(0,0,0,.74) 0%, rgba(0,0,0,.54) 34%, rgba(0,0,0,.20) 64%, rgba(0,0,0,.56) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.08) 0%, rgba(0,0,0,.18) 40%, rgba(0,0,0,.64) 100%),
+    url("../images/hero-forest-v2-5.jpg") center center / cover no-repeat !important;
+  transform:none;
+}
+
+.hero-content{
+  width:min(600px, 92vw);
+  margin-top:2.25rem;
+}
+
+h1{
+  font-size:clamp(3rem,5.45vw,6.15rem);
+  line-height:.96;
+}
+
+.hero-lede{
+  font-size:1rem;
+  line-height:1.72;
+  max-width:520px;
+  margin-bottom:1.25rem;
+}
+
+.brand-tagline{
+  display:block;
+  white-space:nowrap;
+  width:max-content;
+  max-width:100%;
+  font-size:.68rem;
+  letter-spacing:.22em;
+  margin:1rem 0 1.55rem;
+}
+
+.copper-rule{
+  margin:1.45rem 0 1.1rem;
+}
+
+.compact-service-band{
+  grid-template-columns:repeat(4,1fr);
+}
+
+.band-item{
+  min-height:104px;
+}
+
+.services-preview,
+.package-section{
+  display:grid;
+  grid-template-columns:minmax(240px, 30%) 1fr;
+  gap:clamp(2rem,4vw,4rem);
+  align-items:start;
+}
+
+.service-card-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1rem;
+}
+
+.service-card{
+  background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+  border:1px solid var(--line-soft);
+  padding:1.55rem;
+  min-height:245px;
+}
+
+.service-card h3{
+  margin:1.15rem 0 .65rem;
+  color:var(--ivory);
+  font-size:.82rem;
+}
+
+.service-card p{
+  font-size:.9rem;
+}
+
+/* hard-hide legacy fake client/portfolio cards if any browser cache/old section remains */
+.work-preview,
+.case-grid,
+.case-card{
+  display:none !important;
+}
+
+.page-hero{
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.76), rgba(0,0,0,.48)),
+    linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.64)),
+    url("../images/hero-forest-v2-5.jpg") center center / cover no-repeat !important;
+}
+
+@media (max-width:1050px){
+  .hero{
+    min-height:720px;
+  }
+  .services-preview,
+  .package-section{
+    grid-template-columns:1fr;
+  }
+  .service-card-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:820px){
+  .hero{
+    min-height:680px;
+    padding-top:6.8rem;
+    padding-bottom:4rem;
+  }
+  .service-card-grid,
+  .compact-service-band{
+    grid-template-columns:1fr;
+  }
+  .brand-tagline{
+    white-space:normal;
+    width:auto;
+  }
+}
+
+
+/* ================================
+   v2.6 approved mockup match
+   ================================ */
+
+.site-header{
+  padding:1.55rem clamp(1.2rem,3.6vw,4.1rem);
+}
+
+.brand-badge{
+  width:58px;
+  height:58px;
+}
+
+.brand-copy strong{
+  font-size:1.38rem;
+  letter-spacing:.22em;
+}
+
+.brand-copy small{
+  font-size:.62rem;
+  letter-spacing:.36em;
+}
+
+.site-nav{
+  gap:2.65rem;
+}
+
+.site-nav a{
+  font-size:.78rem;
+  letter-spacing:.18em;
+}
+
+.hero-v26{
+  min-height:760px;
+  height:76vh;
+  max-height:840px;
+  padding:8.7rem clamp(1.25rem,5.8vw,6.5rem) 4.2rem;
+  align-items:center;
+}
+
+.hero-v26 .hero-bg{
+  background:
+    radial-gradient(circle at 58% 20%, rgba(233,225,214,.12), transparent 30%),
+    linear-gradient(90deg, rgba(0,0,0,.74) 0%, rgba(0,0,0,.52) 36%, rgba(0,0,0,.18) 64%, rgba(0,0,0,.56) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.18) 40%, rgba(0,0,0,.74) 100%),
+    url("../images/hero-approved-mountain-forest-v2-6.jpg") center center / cover no-repeat !important;
+  transform:none;
+}
+
+.hero-v26 .hero-content{
+  width:min(680px, 92vw);
+  margin-top:3rem;
+}
+
+.hero-v26 h1{
+  font-size:clamp(3.2rem,5.65vw,6.55rem);
+  line-height:.98;
+  letter-spacing:-.045em;
+}
+
+.hero-v26 .hero-lede{
+  font-size:1.08rem;
+  line-height:1.68;
+  max-width:520px;
+  margin-bottom:2rem;
+}
+
+.hero-v26 .copper-rule{
+  width:76px;
+  margin:1.55rem 0 1.25rem;
+}
+
+.hero-v26 .button{
+  min-width:250px;
+}
+
+.service-band{
+  background:linear-gradient(180deg, rgba(20,20,20,.98), rgba(11,11,10,.99));
+}
+
+.compact-service-band{
+  grid-template-columns:repeat(4,1fr);
+}
+
+.compact-service-band .band-item{
+  min-height:126px;
+  padding:1.65rem clamp(1rem,2.2vw,2.45rem);
+}
+
+.compact-service-band .circle-icon{
+  width:54px;
+  height:54px;
+  font-size:1.35rem;
+}
+
+.compact-service-band .band-item h3{
+  font-size:.76rem;
+  letter-spacing:.17em;
+}
+
+.compact-service-band .band-item p{
+  font-size:.84rem;
+  line-height:1.55;
+}
+
+.services-preview,
+.package-section{
+  display:grid;
+  grid-template-columns:minmax(250px, 28%) 1fr;
+  gap:clamp(2rem,4.4vw,4.4rem);
+}
+
+.service-card-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1rem;
+}
+
+.service-card{
+  background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+  border:1px solid var(--line-soft);
+  padding:1.65rem;
+  min-height:245px;
+}
+
+.service-card h3{
+  margin:1.15rem 0 .65rem;
+  color:var(--ivory);
+  font-size:.82rem;
+}
+
+.work-preview,
+.case-grid,
+.case-card{
+  display:none !important;
+}
+
+@media (max-width:1050px){
+  .hero-v26{
+    height:auto;
+    min-height:720px;
+  }
+  .services-preview,
+  .package-section{
+    grid-template-columns:1fr;
+  }
+  .service-card-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:820px){
+  .hero-v26{
+    min-height:700px;
+    padding-top:7rem;
+  }
+  .hero-v26 h1{
+    font-size:clamp(3rem,13vw,5rem);
+  }
+  .service-card-grid,
+  .compact-service-band{
+    grid-template-columns:1fr;
+  }
+}
