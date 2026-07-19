@@ -1389,7 +1389,7 @@ h1{
   background:
     linear-gradient(90deg, rgba(0,0,0,.68) 0%, rgba(0,0,0,.48) 28%, rgba(0,0,0,.18) 58%, rgba(0,0,0,.36) 100%),
     linear-gradient(180deg, rgba(0,0,0,.08) 0%, rgba(0,0,0,.12) 42%, rgba(0,0,0,.42) 100%),
-    url("../images/hero-clean-mountain-forest-v2-8-3.jpg") center center / cover no-repeat !important;
+    url("../images/hero-clean-mountain-forest-v2-8-3.jpg") 50% 8% / cover no-repeat !important;
   transform:none;
 }
 
