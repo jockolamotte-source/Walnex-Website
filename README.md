@@ -1,4 +1,4 @@
-# Walnex Creative Website v2.4
+# Walnex Creative Website v2.6
 
 GitHub-ready static website based on the approved dark forest / fog reference direction.
 
@@ -79,3 +79,24 @@ The logo files included in this build are raster assets from the approved visual
 - Removed Work from the main navigation and added Pricing.
 - Rebuilt `work.html` as a service packages page for any old links.
 - Refocused copy on services, lead generation, credibility, and growing businesses.
+
+
+## v2.5 Update
+
+- Rebuilt homepage so fake client/work cards are removed entirely.
+- Hero now uses a different, lighter forest reference image: `assets/images/hero-forest-v2-5.jpg`.
+- Fixed hero content cut-off by removing fixed viewport height and increasing safe bottom padding.
+- Forced the tagline “Crafted for What's Next.” onto one line on desktop.
+- Reduced visual scale further so the site feels more palatable.
+- Reoriented homepage around services, packages, and growth strategy.
+
+
+## v2.6 Update
+
+- Rebuilt homepage to match the approved mountain/forest mockup direction.
+- Replaced the hero background with a moody mountain/evergreen image derived from the approved reference.
+- Restored the approved hero wording:
+  - “Crafted brands. Built to last.”
+- Removed old fake client references and fake portfolio cards from the homepage.
+- Kept service-focused positioning for growing businesses.
+- Kept Playfair Display headings and Montserrat body typography.
