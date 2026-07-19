@@ -16,12 +16,13 @@
 | 0.08 MB | `assets/images/work-card-laptop.jpg` |
 | 0.07 MB | `assets/images/hero-clean-mountain-forest-v2-8-3.webp` |
 | 0.03 MB | `assets/css/styles.css` |
-| 0.01 MB | `index.html` |
 | 0.01 MB | `services.html` |
+| 0.01 MB | `index.html` |
+| 0.01 MB | `pricing.html` |
 | 0.01 MB | `about.html` |
-| 0.01 MB | `work.html` |
 | 0.01 MB | `contact.html` |
-| 0.00 MB | `README.md` |
-| 0.00 MB | `pricing.html` |
+| 0.00 MB | `work.html` |
+| 0.00 MB | `FILE_SIZE_REPORT.md` |
 | 0.00 MB | `assets/js/main.js` |
+| 0.00 MB | `README.md` |
 | 0.00 MB | `assets/images/favicon.svg` |
