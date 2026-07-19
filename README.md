@@ -1,4 +1,4 @@
-# Walnex Creative Website v2.3
+# Walnex Creative Website v2.4
 
 GitHub-ready static website based on the approved dark forest / fog reference direction.
 
@@ -68,3 +68,14 @@ The logo files included in this build are raster assets from the approved visual
 - Fixed interior page hero backgrounds to use the same exact uploaded forest reference image.
 - Added all three uploaded forest references to `assets/images/` and `assets/reference/`.
 - Removed reliance on the old generated mountain background for the visible hero areas.
+
+
+## v2.4 Update
+
+- Reworked the hero image so it is brighter and more visible.
+- Reduced the overall visual scale so the website feels more polished and less oversized.
+- Removed client/reference portfolio emphasis from the homepage.
+- Replaced the homepage work section with service-focused cards.
+- Removed Work from the main navigation and added Pricing.
+- Rebuilt `work.html` as a service packages page for any old links.
+- Refocused copy on services, lead generation, credibility, and growing businesses.
