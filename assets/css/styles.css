@@ -13,8 +13,8 @@
   --line:rgba(183,123,79,.32);
   --line-soft:rgba(233,225,214,.12);
   --shadow:0 28px 80px rgba(0,0,0,.55);
-  --serif:"Cormorant Garamond", Georgia, serif;
-  --sans:"Jost", Arial, sans-serif;
+  --serif:"Playfair Display", Georgia, serif;
+  --sans:"Montserrat", Arial, sans-serif;
 }
 
 *{box-sizing:border-box}
@@ -24,8 +24,8 @@ body{
   background:var(--charcoal);
   color:var(--sand);
   font-family:var(--sans);
-  font-size:16px;
-  line-height:1.6;
+  font-size:15.5px;
+  line-height:1.65;
   overflow-x:hidden;
 }
 body::before{
@@ -139,15 +139,15 @@ h3{font-size:1.05rem;letter-spacing:.16em;text-transform:uppercase}
 .brand-copy strong{
   display:block;
   color:var(--copper);
-  font-size:1.42rem;
-  letter-spacing:.22em;
+  font-size:1.28rem;
+  letter-spacing:.20em;
   line-height:1;
 }
 .brand-copy small{
   display:block;
   color:var(--copper);
-  font-size:.65rem;
-  letter-spacing:.36em;
+  font-size:.58rem;
+  letter-spacing:.32em;
   line-height:1.2;
   margin-top:.18rem;
 }
@@ -155,9 +155,9 @@ h3{font-size:1.05rem;letter-spacing:.16em;text-transform:uppercase}
 .site-nav a{
   position:relative;
   color:var(--sand);
-  font-size:.82rem;
+  font-size:.78rem;
   text-transform:uppercase;
-  letter-spacing:.22em;
+  letter-spacing:.20em;
   font-weight:600;
   opacity:.92;
 }
@@ -590,3 +590,60 @@ textarea{resize:vertical}
   .band-item{border-right:0;border-bottom:1px solid var(--line-soft)}
   .footer-main{grid-template-columns:1fr}
 }
+
+
+/* v2.2 Typography + service-business refinements */
+.hero-content h1,
+.page-hero h1,
+.section-kicker h2,
+.portfolio-card h2,
+.price-card h3,
+.value-card h2,
+.contact-card h2,
+.proposal-card h2 {
+  font-family: var(--serif);
+}
+
+.brand-tagline {
+  margin: 1.1rem 0 2rem;
+  color: var(--copper);
+  text-transform: uppercase;
+  letter-spacing: .24em;
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+.hero-growth-word {
+  color: var(--copper);
+}
+
+.service-detail h2,
+.price-card h3 {
+  letter-spacing: -.035em;
+}
+
+.footer-brand .tagline-line,
+.footer-tagline {
+  color: var(--copper);
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  font-size: .76rem;
+  margin-top: .6rem;
+}
+
+.service-outcome {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line-soft);
+  color: rgba(233,225,214,.78);
+  font-weight: 500;
+}
+
+.case-card h3,
+.portfolio-card .eyebrow,
+.band-item h3,
+.service-detail .eyebrow {
+  font-family: var(--sans);
+  font-weight: 700;
+}
+
