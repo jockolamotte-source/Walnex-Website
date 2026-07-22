@@ -1,36 +1,19 @@
-# File Size Report
+# File Size Report – Walnex Creative v3.1
 
-| Size | File |
-|---:|---|
-| 1.88 MB | `assets/images/hero-clean-mountain-forest-v2-8-2.png` |
-| 0.58 MB | `assets/images/walnex-logo-primary.png` |
-| 0.36 MB | `assets/images/walnex-logo-horizontal.png` |
-| 0.33 MB | `assets/images/walnex-mark-round.png` |
-| 0.28 MB | `assets/images/walnex-stamp.png` |
-| 0.26 MB | `assets/images/walnex-wordmark.png` |
-| 0.19 MB | `assets/images/work-card-notebook.jpg` |
-| 0.14 MB | `assets/images/hero-clean-mountain-forest-v2-8-3.jpg` |
-| 0.11 MB | `assets/images/work-card-branding.jpg` |
-| 0.10 MB | `assets/images/work-card-signage.jpg` |
-| 0.08 MB | `assets/images/work-card-mug.jpg` |
-| 0.08 MB | `assets/images/work-card-laptop.jpg` |
-| 0.07 MB | `assets/images/hero-clean-mountain-forest-v2-8-3.webp` |
-| 0.05 MB | `assets/images/app-letterhead.jpg` |
-| 0.05 MB | `assets/images/app-pen.jpg` |
-| 0.05 MB | `assets/css/styles.css` |
-| 0.04 MB | `assets/images/app-mug.jpg` |
-| 0.04 MB | `assets/images/app-digital.jpg` |
-| 0.04 MB | `assets/images/app-vehicle.jpg` |
-| 0.03 MB | `assets/images/app-businesscard.jpg` |
-| 0.03 MB | `assets/images/app-signage.jpg` |
-| 0.01 MB | `applications.html` |
-| 0.01 MB | `services.html` |
-| 0.01 MB | `pricing.html` |
-| 0.01 MB | `index.html` |
-| 0.01 MB | `about.html` |
-| 0.01 MB | `contact.html` |
-| 0.00 MB | `work.html` |
-| 0.00 MB | `FILE_SIZE_REPORT.md` |
-| 0.00 MB | `assets/js/main.js` |
-| 0.00 MB | `README.md` |
-| 0.00 MB | `assets/images/favicon.svg` |
+Largest assets in this package:
+
+- `assets/images/hero-clean-mountain-forest-v2-8-2.png` — 1925.2 KB
+- `assets/images/walnex-logo-primary.png` — 593.0 KB
+- `assets/images/walnex-logo-horizontal.png` — 371.9 KB
+- `assets/images/walnex-mark-round.png` — 340.4 KB
+- `assets/images/walnex-stamp.png` — 286.5 KB
+- `assets/images/walnex-wordmark.png` — 261.8 KB
+- `assets/images/work-card-notebook.jpg` — 198.1 KB
+- `assets/images/app-signage-round.webp` — 174.0 KB
+- `assets/images/app-letterhead-proposal.webp` — 158.0 KB
+- `assets/images/app-digital-profiles.webp` — 151.7 KB
+- `assets/images/app-touchpoints.webp` — 148.0 KB
+- `assets/images/hero-clean-mountain-forest-v2-8-3.jpg` — 147.4 KB
+- `assets/images/work-card-branding.jpg` — 113.3 KB
+- `assets/images/app-vehicle-suv.webp` — 105.6 KB
+- `assets/images/app-signage-box.webp` — 105.1 KB

@@ -1,8 +1,8 @@
-# Walnex Creative Website v3.0
+# Walnex Creative Website v3.1
 
 GitHub-ready static website.
 
-## v3.0 Update
+## v3.1 Update
 
 - Added new page: `applications.html`
   - Navigation label: Brand In Action
@@ -24,3 +24,17 @@ GitHub-ready static website.
 ## GitHub Pages
 
 Upload the contents of this folder to your repository root.
+
+
+## v3.1 Additions
+
+- Refreshed `applications.html` with the new render set for:
+  - Letterhead & proposals
+  - Digital profiles
+  - Exterior signage
+  - Icon signage
+  - Pens & small items
+  - Vehicle graphics
+  - Branded touchpoints
+  - Photography style / workspace imagery
+- Added optimized `.webp` assets for the Brand In Action gallery to keep deployment lighter.
