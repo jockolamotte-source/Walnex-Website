@@ -3,15 +3,177 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Starting investments for Walnex Creative brand identity, website services, digital launch support, and creative support." />
+  <meta name="description" content="Startup-friendly pricing for Walnex Creative brand foundation, website launch, digital setup, launch bundles, and ongoing support." />
   <meta name="theme-color" content="#0b0b0a" />
-  <!-- Walnex Creative v3.1 -->
-  <title>Pricing | Walnex Creative v3.1</title>
+  <!-- Walnex Creative v3.1.1.1 -->
+  <title>Pricing | Walnex Creative v3.1.1</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    /* Walnex Creative v3.1.1 pricing page update */
+    .pricing-philosophy-section,
+    .bundle-menu-section,
+    .complete-launch-section,
+    .pricing-clarity-section{
+      display:grid;
+      grid-template-columns:minmax(245px, 28%) 1fr;
+      gap:clamp(2rem,4vw,4rem);
+      align-items:start;
+    }
+
+    .pricing-values-grid,
+    .bundle-menu-grid{
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0,1fr));
+      gap:1rem;
+    }
+
+    .pricing-value-card,
+    .bundle-option-card,
+    .complete-launch-card,
+    .support-options-stack article,
+    .clarity-card{
+      background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
+      border:1px solid var(--line-soft);
+      box-shadow:0 18px 60px rgba(0,0,0,.18);
+    }
+
+    .pricing-value-card,
+    .bundle-option-card,
+    .support-options-stack article,
+    .clarity-card{
+      padding:1.65rem;
+    }
+
+    .pricing-value-card span{
+      display:block;
+      color:var(--copper);
+      font-family:var(--serif);
+      font-size:2.7rem;
+      line-height:1;
+      margin-bottom:1rem;
+    }
+
+    .pricing-value-card h3,
+    .bundle-option-card h3,
+    .support-options-stack h3{
+      color:var(--ivory);
+      margin-bottom:.75rem;
+    }
+
+    .pricing-grid-three{
+      grid-template-columns:repeat(3, minmax(0, 1fr)) !important;
+    }
+
+    .pricing-note{
+      margin-top:auto !important;
+      color:rgba(233,225,214,.76) !important;
+      border-top:1px solid var(--line-soft);
+      padding-top:1rem;
+      font-size:.88rem !important;
+      line-height:1.55 !important;
+    }
+
+    .bundle-option-card{
+      min-height:420px;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .bundle-option-card strong,
+    .complete-launch-card strong,
+    .support-options-stack strong{
+      display:block;
+      color:var(--copper);
+      font-family:var(--serif);
+      font-size:clamp(2rem,2.8vw,3.4rem);
+      font-weight:500;
+      line-height:1;
+      margin:.35rem 0 1rem;
+    }
+
+    .bundle-option-card ul,
+    .complete-launch-card ul,
+    .support-options-stack ul{
+      margin:1rem 0 0;
+      padding-left:1.1rem;
+      color:rgba(233,225,214,.70);
+    }
+
+    .bundle-option-card li,
+    .complete-launch-card li,
+    .support-options-stack li{
+      margin:.35rem 0;
+    }
+
+    .complete-launch-card{
+      border-color:rgba(183,123,79,.62);
+      padding:2rem;
+    }
+
+    .complete-launch-card h2{
+      font-size:clamp(2.7rem,5vw,5.8rem);
+      line-height:.98;
+      margin-bottom:.75rem;
+    }
+
+    .complete-launch-card .button{
+      margin-top:1.5rem;
+    }
+
+    .support-options-stack{
+      display:grid;
+      gap:1rem;
+    }
+
+    .support-options-stack article:first-child{
+      border-color:rgba(183,123,79,.52);
+    }
+
+    .clarity-card{
+      grid-column:2;
+      padding:2rem;
+      max-width:920px;
+    }
+
+    .clarity-card h2{
+      font-size:clamp(2.2rem,4vw,4.6rem);
+      line-height:1;
+      margin-bottom:1rem;
+    }
+
+    @media (max-width:1200px){
+      .pricing-values-grid,
+      .bundle-menu-grid,
+      .pricing-grid-three{
+        grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+      }
+    }
+
+    @media (max-width:900px){
+      .pricing-philosophy-section,
+      .bundle-menu-section,
+      .complete-launch-section,
+      .pricing-clarity-section{
+        grid-template-columns:1fr;
+      }
+
+      .pricing-values-grid,
+      .bundle-menu-grid,
+      .pricing-grid-three{
+        grid-template-columns:1fr !important;
+      }
+
+      .clarity-card{
+        grid-column:auto;
+      }
+    }
+  </style>
+
 </head>
 <body>
 <div class="grain" aria-hidden="true"></div>
@@ -32,106 +194,216 @@
     <a class="" href="contact.html">Contact</a>
   </nav>
 </header>
+
 <main>
 
 <section class="page-hero compact-hero">
   <div>
     <p class="eyebrow">Pricing</p>
-    <h1>Investment options for startups and small businesses.</h1>
-    <p>Pricing is organized around the four core service areas so it is easier to understand what each part of your launch can include.</p>
+    <h1>Startup-friendly pricing built around lower upfront cost.</h1>
+    <p>Walnex pricing is designed for startups, entrepreneurs, and small businesses that need a professional brand, website, and digital launch foundation without carrying the full cost all at once.</p>
+  </div>
+</section>
+
+<section class="section pricing-philosophy-section">
+  <div class="section-kicker reveal">
+    <p class="eyebrow">Why we price this way</p>
+    <h2>Built for businesses that are just getting started.</h2>
+    <p>Starting a business is expensive. Walnex keeps the entry point approachable so small businesses can launch with a polished foundation, then choose the level of support they need as they grow.</p>
+  </div>
+
+  <div class="pricing-values-grid">
+    <article class="pricing-value-card reveal">
+      <span>01</span>
+      <h3>We care about the brand after launch.</h3>
+      <p>The goal is not to hand over files and disappear. Walnex builds brands and websites with the next stage of the business in mind.</p>
+    </article>
+    <article class="pricing-value-card reveal">
+      <span>02</span>
+      <h3>We build partnerships, not one-time transactions.</h3>
+      <p>New businesses need guidance, updates, refinements, and someone who understands the foundation. Support options create room for that relationship.</p>
+    </article>
+    <article class="pricing-value-card reveal">
+      <span>03</span>
+      <h3>We give startups a professional edge.</h3>
+      <p>A strong brand presence helps a small business look more established, earn trust faster, and compete with businesses that have been around longer.</p>
+    </article>
   </div>
 </section>
 
 <section class="section pricing-services-section">
   <div class="section-kicker reveal">
-    <p class="eyebrow">Service Starting Points</p>
-    <h2>Four ways to build your foundation.</h2>
-    <p>Use these as starting points. Final proposals define exact deliverables, timeline, revision limits, client responsibilities, and payment terms before work begins.</p>
+    <p class="eyebrow">Individual Services</p>
+    <h2>Start with what you need now.</h2>
+    <p>Each service can stand alone, or it can be combined into a launch bundle. Monthly support is used where ongoing help protects the website and keeps the business moving after launch.</p>
   </div>
 
-  <div class="pricing-service-grid">
+  <div class="pricing-service-grid pricing-grid-three">
     <article class="pricing-service-card reveal">
       <span class="circle-icon">W</span>
-      <p class="eyebrow">01 / Brand Identity</p>
+      <p class="eyebrow">01 / Identity</p>
       <h3>Brand Foundation</h3>
-      <strong>From $500</strong>
-      <p>For startups and small businesses that need a professional identity before launching or improving their presence.</p>
+      <strong>$500</strong>
+      <p>For startups that need a clean, professional identity before launching.</p>
       <ul>
         <li>Logo direction</li>
-        <li>Color and type system</li>
-        <li>Core messaging notes</li>
+        <li>Starter logo suite</li>
+        <li>Color palette and typography pairing</li>
+        <li>Basic brand direction</li>
         <li>Starter brand guide</li>
       </ul>
+      <p class="pricing-note">One-time package. Optional support available after delivery.</p>
     </article>
 
     <article class="pricing-service-card featured reveal">
       <span class="circle-icon">▣</span>
-      <p class="eyebrow">02 / Website Services</p>
+      <p class="eyebrow">02 / Website</p>
       <h3>Website Launch</h3>
-      <strong>From $750</strong>
-      <p>For businesses that need a clean, responsive website with domain support and launch-ready structure.</p>
+      <strong>$750</strong>
+      <p>For businesses that need a professional website without paying thousands upfront.</p>
       <ul>
-        <li>Custom page design</li>
-        <li>Responsive static build</li>
-        <li>Domain setup/support</li>
-        <li>Basic SEO and contact paths</li>
+        <li>Starter website design/build</li>
+        <li>Mobile responsive layout</li>
+        <li>Domain connection support</li>
+        <li>Contact, booking, or inquiry path</li>
+        <li>Basic launch setup</li>
       </ul>
+      <p class="pricing-note">$50/mo support for 3 months after launch.</p>
     </article>
 
     <article class="pricing-service-card reveal">
       <span class="circle-icon">◎</span>
-      <p class="eyebrow">03 / Digital Launch Support</p>
-      <h3>Launch Setup</h3>
-      <strong>From $1,200</strong>
-      <p>For startups that need help setting up the practical tools customers use to find, book, and pay.</p>
+      <p class="eyebrow">03 / Digital Setup</p>
+      <h3>Digital Launch Setup</h3>
+      <strong>$750</strong>
+      <p>For businesses that need the practical tools connected so customers can find, book, and pay.</p>
       <ul>
+        <li>Google Business profile setup</li>
+        <li>Booking/scheduling setup</li>
+        <li>Payment link/setup support</li>
+        <li>Digital profile cleanup</li>
+        <li>Launch checklist support</li>
+      </ul>
+      <p class="pricing-note">One-time setup sprint.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section bundle-menu-section">
+  <div class="section-kicker reveal">
+    <p class="eyebrow">Bundle Options</p>
+    <h2>Combine the pieces that fit your launch.</h2>
+    <p>Bundles are designed to keep the overall investment approachable while giving the business a stronger foundation than one service alone.</p>
+  </div>
+
+  <div class="bundle-menu-grid">
+    <article class="bundle-option-card reveal">
+      <p class="eyebrow">Brand + Website</p>
+      <h3>Brand & Website Launch</h3>
+      <strong>$1,100</strong>
+      <p>For startups that need the visual identity and website built together.</p>
+      <ul>
+        <li>Brand Foundation</li>
+        <li>Website Launch</li>
+        <li>Domain connection support</li>
+        <li>Contact or booking path</li>
+      </ul>
+      <p class="pricing-note">$50/mo support for 3 months after launch.</p>
+    </article>
+
+    <article class="bundle-option-card reveal">
+      <p class="eyebrow">Website + Digital Setup</p>
+      <h3>Website & Launch Support</h3>
+      <strong>$1,250</strong>
+      <p>For businesses that already have a brand but need the website and digital tools handled.</p>
+      <ul>
+        <li>Website Launch</li>
         <li>Google Business setup</li>
         <li>Booking/scheduling setup</li>
-        <li>Payment option setup support</li>
-        <li>App/workflow optimization</li>
+        <li>Payment setup support</li>
+      </ul>
+      <p class="pricing-note">$50/mo support for 3 months after launch.</p>
+    </article>
+
+    <article class="bundle-option-card reveal">
+      <p class="eyebrow">Brand + Digital Setup</p>
+      <h3>Identity & Profile Launch</h3>
+      <strong>$1,100</strong>
+      <p>For businesses that are not ready for a full website yet, but need the brand and digital profiles aligned.</p>
+      <ul>
+        <li>Brand Foundation</li>
+        <li>Google Business setup</li>
+        <li>Booking/payment setup support</li>
+        <li>Profile consistency guidance</li>
+      </ul>
+      <p class="pricing-note">Optional monthly support available after delivery.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section complete-launch-section">
+  <div class="complete-launch-card reveal">
+    <p class="eyebrow">Best full launch fit</p>
+    <h2>Complete Business Launch</h2>
+    <strong>$2,000</strong>
+    <p>For startups and small businesses that want the brand, website, and digital setup handled together from the beginning.</p>
+    <ul>
+      <li>Brand Foundation</li>
+      <li>Website Launch</li>
+      <li>Digital Launch Setup</li>
+      <li>Domain connection support</li>
+      <li>Booking/scheduling setup</li>
+      <li>Payment setup support</li>
+      <li>Google Business setup</li>
+      <li>Basic branded launch assets</li>
+      <li>3 months of support included</li>
+    </ul>
+    <a class="button wood-button" href="contact.html">Start a launch project</a>
+  </div>
+
+  <div class="support-options-stack reveal">
+    <article>
+      <p class="eyebrow">Optional after included support</p>
+      <h3>Hands-On Support</h3>
+      <strong>$100/mo</strong>
+      <p>For clients who want Walnex to stay closely involved after launch.</p>
+      <ul>
+        <li>Website content updates</li>
+        <li>Small layout refinements</li>
+        <li>New sections or minor page additions</li>
+        <li>Troubleshooting and launch improvements</li>
+        <li>Small brand/website adjustments</li>
+        <li>Guidance as the business grows</li>
       </ul>
     </article>
 
-    <article class="pricing-service-card reveal">
-      <span class="circle-icon">✎</span>
-      <p class="eyebrow">04 / Creative Support</p>
-      <h3>Ongoing Support</h3>
-      <strong>From $100/mo</strong>
-      <p>For businesses that need continued refinements, website updates, landing pages, or branded assets.</p>
+    <article>
+      <p class="eyebrow">Minimum technical coverage</p>
+      <h3>Web & Domain Support</h3>
+      <strong>$25/mo</strong>
+      <p>For clients who do not need comprehensive hands-on support, but still want web and domain-specific coverage.</p>
       <ul>
-        <li>Website updates</li>
-        <li>Brand asset support</li>
-        <li>New page sections</li>
-        <li>Monthly creative help</li>
+        <li>Domain/DNS support</li>
+        <li>Hosting and deployment oversight</li>
+        <li>SSL/HTTPS troubleshooting</li>
+        <li>Basic website uptime checks</li>
+        <li>Small technical fixes</li>
       </ul>
     </article>
   </div>
 </section>
 
-<section class="section pricing-bundle-section">
-  <div class="bundle-card reveal">
-    <p class="eyebrow">Best launch fit</p>
-    <h2>Business Launch Package</h2>
-    <strong>From $4,500</strong>
-    <p>A bundled brand + website + digital setup project for startups and small businesses that want a polished presence from the beginning.</p>
-    <a class="button wood-button" href="contact.html">Start a project</a>
-  </div>
-
-  <div class="bundle-notes reveal">
-    <article>
-      <p class="eyebrow">Payment Structure</p>
-      <h3>Built to protect the project.</h3>
-      <p>Typical projects begin with a deposit before work starts, milestone-based progress, and final payment before launch or final file delivery.</p>
-    </article>
-    <article>
-      <p class="eyebrow">Scope Control</p>
-      <h3>Clear boundaries from the start.</h3>
-      <p>Each proposal defines included deliverables, revision rounds, timeline, client responsibilities, and additional work terms.</p>
-    </article>
+<section class="section pricing-clarity-section">
+  <div class="clarity-card reveal">
+    <p class="eyebrow">Simple expectations</p>
+    <h2>Support is there so the business is not left alone after launch.</h2>
+    <p>Monthly support helps keep upfront costs lower while giving startups and small businesses a layer of help after launch. Walnex can stay involved for updates, refinements, troubleshooting, and practical guidance — without forcing every client into the same level of support.</p>
+    <p>Third-party costs such as domain registration, paid booking tools, payment processors, email platforms, premium plugins, or other outside services are quoted or billed separately when needed.</p>
   </div>
 </section>
 
 </main>
+
 <footer class="site-footer">
   <div class="footer-cta">
     <img src="assets/images/walnex-mark-round.png" alt="" />
